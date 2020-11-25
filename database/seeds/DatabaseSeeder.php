@@ -12,10 +12,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->truncateTable([
-            'transfers',
-        'wallets',
-        ]);
+        // $this->truncateTable([
+        //     'transfers',
+        // 'wallets',
+        // ]);
         $this->call(WalletsTableSeeder::class);
         $this->call(TransfersTableSeeder::class);
 
