@@ -4,7 +4,7 @@ namespace Tests\Feature;
 
 use App\Transfer;
 use App\Wallet;
-use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\  ;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
